@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Sonai Das — freelance web designer, data analyst, digital services and community work in West Bengal, India.">
+  <meta name="theme-color" content="#0a1128">
+  <title>Sonai Das | Digital, Data & Community</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.9/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-yEPZ7jP9S0QKiUQ0m3jjsO4ProIW7wvR9gXkI7JOGa2XVsw53Yke2bsdkBbjmmiX" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="loading-bar" id="loadingBar"></div>
+  <canvas id="space-canvas" aria-hidden="true"></canvas>
+  <div class="ambient-grain" aria-hidden="true"></div>
+
+  <nav class="navbar navbar-expand-lg fixed-top nav-glass" aria-label="Primary navigation">
+    <div class="container-xl">
+      <a class="navbar-brand brand" href="#home"><span class="brand-mark">SD</span><span>SONAI DAS<small>Digital • Data • Community</small></span></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu" aria-controls="navMenu" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+      <div class="collapse navbar-collapse justify-content-end" id="navMenu">
+        <ul class="navbar-nav align-items-lg-center gap-lg-1">
+          <li class="nav-item"><a class="nav-link" href="#home">Home</a></li><li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#resume">Resume</a></li><li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+          <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li><li class="nav-item"><a class="nav-link" href="#works">Works</a></li>
+          <li class="nav-item"><a class="nav-link" href="#journal">Journal</a></li><li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul><a href="#contact" class="btn btn-gold nav-cta ms-lg-3">Let's connect <span>↗</span></a>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+    <section class="hero section-shell" id="home">
+      <div class="container-xl hero-container">
+        <div class="hero-copy">
+          <div class="eyebrow"><span class="eyebrow-line"></span> Independent professional · West Bengal, India</div>
+          <p class="hero-kicker">A thoughtful approach to</p>
+          <h1>Digital craft.<br><em>Real-world impact.</em></h1>
+          <p class="hero-lead">I'm <strong>Sonai Das</strong> — a freelance web designer, data analyst, digital services professional and community-minded entrepreneur.</p>
+          <div class="role-line"><span class="role-label">FOCUS</span><span id="roleText">Web Design</span><span class="role-cursor">|</span></div>
+          <div class="hero-actions"><a class="btn btn-gold magnetic" href="#contact">Hire / Collaborate <span>↗</span></a><a class="btn btn-outline-light" href="#works">Explore my work <span>↓</span></a></div>
+          <div class="hero-meta"><span><i class="status-dot"></i> Available for select projects</span><span>01 — 05</span></div>
+        </div>
+        <div class="hero-visual" aria-label="Portrait image placeholder">
+          <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+          <div class="portrait-frame depth-card">
+            <!-- Replace with your portrait: assets/sonai-portrait.jpg -->
+            <img src="assets/sonai-portrait.jpg" alt="Portrait of Sonai Das" onerror="this.style.display='none';this.parentElement.classList.add('image-placeholder');">
+            <div class="portrait-fallback"><span>SD</span><small>PORTRAIT IMAGE<br>assets/sonai-portrait.jpg</small></div>
+            <div class="portrait-caption"><span>SONAI DAS</span><small>CREATIVE · ANALYTICAL · ENTREPRENEURIAL</small></div>
+          </div>
+          <div class="floating-note note-top"><span class="note-icon">✦</span><span>Creative solutions<br><b>Built with purpose</b></span></div>
+          <div class="floating-note note-bottom"><span class="note-number">04</span><span>Core disciplines<br><b>Digital · Data · Service</b></span></div>
+          <div class="hero-coordinate">22°34′N / 88°25′E</div>
+        </div>
+      </div>
+      <a class="scroll-cue" href="#about"><span>SCROLL TO DISCOVER</span><i></i></a>
+    </section>
+
+    <section class="section section-light" id="about">
+      <div class="container-xl">
+        <div class="section-head reveal"><div class="eyebrow dark"><span class="eyebrow-line"></span> PROFILE</div><h2>People-first thinking.<br><em>Purposeful execution.</em></h2></div>
+        <div class="about-grid">
+          <div class="about-image-wrap reveal">
+            <!-- Replace with original about photo: assets/sonai-about.jpg -->
+            <img class="about-photo" src="assets/sonai-about.jpg" alt="Sonai Das profile image" onerror="this.style.display='none';this.parentElement.classList.add('photo-placeholder');">
+            <div class="about-photo-fallback"><span>SD</span><small>IMAGE SLOT · assets/sonai-about.jpg</small></div>
+            <div class="image-side-label">PROFILE / 2026</div>
+          </div>
+          <div class="about-content reveal">
+            <p class="about-intro">A kind-hearted, curious individual who believes in learning continuously and contributing to society. I enjoy turning ideas into practical solutions—through technology, service, business and education.</p>
+            <p class="about-body">I bring together creative design, analytical thinking, communication and hands-on business experience. I believe meaningful work is built with patience, integrity, curiosity and a willingness to keep improving.</p>
+            <div class="detail-grid">
+              <div><label>Full name</label><strong>Sonai Das</strong></div><div><label>Born</label><strong>29 November 1998</strong></div>
+              <div><label>Based in</label><strong>North 24 Parganas, WB</strong></div><div><label>Pin code</label><strong>743425</strong></div>
+              <div><label>Email</label><strong><a href="mailto:dassonai743425@gmail.com">dassonai743425@gmail.com</a></strong></div><div><label>Phone</label><strong><a href="tel:+917384440176">+91 73844 40176</a></strong></div>
+            </div>
+            <a class="text-link" href="#resume">View career & education <span>↗</span></a>
+          </div>
+        </div>
+        <div class="stats-row reveal"><div class="stat"><strong data-count="4">04</strong><span>Professional areas</span></div><div class="stat"><strong data-count="3">03</strong><span>Businesses & initiatives</span></div><div class="stat"><strong data-count="10">10+</strong><span>Years of learning & doing</span></div><div class="stat"><strong data-count="1">01</strong><span>Community-first mindset</span></div></div>
+      </div>
+    </section>
+
+    <section class="section section-dark" id="resume">
+      <div class="container-xl">
+        <div class="section-head reveal"><div class="eyebrow"><span class="eyebrow-line"></span> JOURNEY</div><h2>Experience &<br><em>education.</em></h2><p class="section-desc">A journey shaped by learning, responsibility, and practical experience across different fields.</p></div>
+        <div class="timeline">
+          <div class="timeline-item reveal"><div class="timeline-date">2022 — 2025</div><div class="timeline-marker"></div><div class="timeline-card"><span class="timeline-tag">EDUCATION</span><h3>Bachelor of Computer Applications</h3><p>Maulana Abul Kalam Azad University of Technology (MAKAUT)</p><small>Software development, technical fundamentals and applied computer studies.</small></div></div>
+          <div class="timeline-item reveal"><div class="timeline-date">2021 — 2022</div><div class="timeline-marker"></div><div class="timeline-card"><span class="timeline-tag">COMMUNITY / PUBLIC SERVICE</span><h3>Dhuturdaha Gram Panchayat</h3><p>Administrative & community work</p><small>Practical exposure to public systems, GPMS and serving community needs.</small></div></div>
+          <div class="timeline-item reveal"><div class="timeline-date">2021 — 2022</div><div class="timeline-marker"></div><div class="timeline-card"><span class="timeline-tag">EDUCATION / TRAINING</span><h3>Post Graduate Diploma in Computer Teacher Training</h3><p>NCES</p><small>Teaching methods, digital marketing, cyber security, XML, communication and data/HR analysis.</small></div></div>
+          <div class="timeline-item reveal"><div class="timeline-date">2020 — 2021</div><div class="timeline-marker"></div><div class="timeline-card"><span class="timeline-tag">EDUCATION / TRAINING</span><h3>Diploma in Computer Teacher Training</h3><p>NCES</p><small>HTML5, CSS3, CorelDraw and Photoshop.</small></div></div>
+          <div class="timeline-item reveal"><div class="timeline-date">2017 — 2020</div><div class="timeline-marker"></div><div class="timeline-card"><span class="timeline-tag">EDUCATION</span><h3>B.A. English Honours</h3><p>West Bengal State University (WBSU)</p><small>Writing, literature, creative expression, values, ethics and communication.</small></div></div>
+          <div class="timeline-item reveal"><div class="timeline-date">2014 — 2017</div><div class="timeline-marker"></div><div class="timeline-card"><span class="timeline-tag">FOUNDATION</span><h3>Diploma in Computer Application</h3><p>NCES</p><small>Computer hardware, networking, fundamentals and Microsoft Office.</small></div></div>
+          <div class="timeline-item reveal"><div class="timeline-date">2009 — 2016</div><div class="timeline-marker"></div><div class="timeline-card"><span class="timeline-tag">SCHOOL</span><h3>Class VI to 10+2</h3><p>Dhuturdaha K.P. High School (H.S.)</p><small>School foundation and formative learning.</small></div></div>
+          <div class="timeline-item reveal"><div class="timeline-date">2010 — Present</div><div class="timeline-marker"></div><div class="timeline-card"><span class="timeline-tag">ENTREPRENEURSHIP</span><h3>The Shiv Durga Hotel & Restaurants</h3><p>Family / own business</p><small>Customer service, cooking, hospitality operations, publicity and communication.</small></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-light" id="services">
+      <div class="container-xl"><div class="section-head reveal"><div class="eyebrow dark"><span class="eyebrow-line"></span> WHAT I DO</div><h2>Services designed<br><em>around your needs.</em></h2></div>
+        <div class="service-grid">
+          <article class="service-card reveal"><span class="service-index">01</span><div class="service-icon">⌘</div><h3>Web Design</h3><p>Clean, modern, responsive web experiences designed for clarity, trust and usability.</p><span class="service-arrow">↗</span></article>
+          <article class="service-card reveal"><span class="service-index">02</span><div class="service-icon">⌁</div><h3>Web Development</h3><p>Thoughtful website development that turns concepts into functional digital products.</p><span class="service-arrow">↗</span></article>
+          <article class="service-card reveal"><span class="service-index">03</span><div class="service-icon">✳</div><h3>Branding</h3><p>Identity and visual communication that help businesses present themselves consistently.</p><span class="service-arrow">↗</span></article>
+          <article class="service-card reveal"><span class="service-index">04</span><div class="service-icon">◈</div><h3>Digital Services</h3><p>Practical digital assistance, creative services and everyday technology support.</p><span class="service-arrow">↗</span></article>
+          <article class="service-card reveal"><span class="service-index">05</span><div class="service-icon">◌</div><h3>Hospitality</h3><p>Guest care and food service rooted in hands-on hospitality and customer experience.</p><span class="service-arrow">↗</span></article>
+          <article class="service-card reveal"><span class="service-index">06</span><div class="service-icon">▤</div><h3>Teaching</h3><p>Computer learning support, knowledge sharing and approachable guidance for learners.</p><span class="service-arrow">↗</span></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-dark" id="skills">
+      <div class="container-xl skills-grid"><div class="section-head reveal"><div class="eyebrow"><span class="eyebrow-line"></span> CAPABILITIES</div><h2>Skills &<br><em>strengths.</em></h2><p class="section-desc">A broad toolkit built through formal training, self-learning and practical experience.</p><div class="skills-note">Skill bars are qualitative visual guides—not formal test scores.</div></div>
+        <div class="skills-list reveal">
+          <div class="skill-group"><h3>Digital & technology</h3><div class="skill" data-level="88"><div class="skill-label"><span>HTML & CSS</span><span>Strong foundation</span></div><div class="skill-track"><i></i></div></div><div class="skill" data-level="80"><div class="skill-label"><span>Web design / development</span><span>Applied</span></div><div class="skill-track"><i></i></div></div><div class="skill" data-level="70"><div class="skill-label"><span>Computer applications</span><span>Applied</span></div><div class="skill-track"><i></i></div></div><div class="skill" data-level="68"><div class="skill-label"><span>Digital tools & creative software</span><span>Working knowledge</span></div><div class="skill-track"><i></i></div></div></div>
+          <div class="skill-group"><h3>Professional & analytical</h3><div class="skill" data-level="85"><div class="skill-label"><span>Communication & customer care</span><span>Strong</span></div><div class="skill-track"><i></i></div></div><div class="skill" data-level="80"><div class="skill-label"><span>Business operations</span><span>Hands-on</span></div><div class="skill-track"><i></i></div></div><div class="skill" data-level="74"><div class="skill-label"><span>Teaching & knowledge sharing</span><span>Applied</span></div><div class="skill-track"><i></i></div></div><div class="skill" data-level="72"><div class="skill-label"><span>Data & analytical thinking</span><span>Developing</span></div><div class="skill-track"><i></i></div></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-light" id="works"><div class="container-xl"><div class="section-head reveal"><div class="eyebrow dark"><span class="eyebrow-line"></span> SELECTED WORK</div><h2>Work that reflects<br><em>many dimensions.</em></h2><p class="section-desc dark-desc">A mix of digital work, community contribution, services and entrepreneurial projects.</p></div>
+      <div class="work-filters reveal" role="group" aria-label="Filter projects"><button class="filter-btn active" data-filter="all">All work</button><button class="filter-btn" data-filter="digital">Digital</button><button class="filter-btn" data-filter="community">Community</button><button class="filter-btn" data-filter="business">Business</button></div>
+      <div class="work-grid">
+        <article class="work-card reveal" data-category="community"><div class="work-image slot-image"><img src="assets/project-panchayat.jpg" alt="Panchayat work image" onerror="this.style.display='none'"><span class="slot-label">IMAGE SLOT · assets/project-panchayat.jpg</span><span class="work-no">01</span></div><div class="work-info"><div><small>COMMUNITY / PUBLIC SERVICE</small><h3>Dhuturdaha Gram Panchayat</h3><p>Community work & public systems exposure</p></div><button class="project-detail" data-title="Dhuturdaha Gram Panchayat" data-description="Community-facing administrative work, exposure to local public systems and GPMS, and a practical opportunity to serve people." data-image="assets/project-panchayat.jpg" aria-label="View project details">↗</button></div></article>
+        <article class="work-card reveal" data-category="digital"><div class="work-image slot-image"><img src="assets/project-digital-service.jpg" alt="Digital services project" onerror="this.style.display='none'"><span class="slot-label">IMAGE SLOT · assets/project-digital-service.jpg</span><span class="work-no">02</span></div><div class="work-info"><div><small>DIGITAL / ENTREPRENEURSHIP</small><h3>Das Digital Service</h3><p>Digital service initiative & creative support</p></div><button class="project-detail" data-title="Das Digital Service" data-description="A digital-services initiative serving local needs. Replace this summary with specific services, work samples and links as desired." data-image="assets/project-digital-service.jpg" aria-label="View project details">↗</button></div></article>
+        <article class="work-card reveal" data-category="digital"><div class="work-image slot-image"><img src="assets/project-jyc.jpg" alt="Jatiya Yuva Computer project" onerror="this.style.display='none'"><span class="slot-label">IMAGE SLOT · assets/project-jyc.jpg</span><span class="work-no">03</span></div><div class="work-info"><div><small>EDUCATION / TECHNOLOGY</small><h3>Jatiya Yuva Computer</h3><p>Computer learning & education initiative</p></div><button class="project-detail" data-title="Jatiya Yuva Computer" data-description="Computer learning initiative associated with Bamanpukur. Add course information, classroom photographs and any project links here." data-image="assets/project-jyc.jpg" aria-label="View project details">↗</button></div></article>
+        <article class="work-card reveal" data-category="business"><div class="work-image slot-image"><img src="assets/project-hospitality.jpg" alt="Hospitality business project" onerror="this.style.display='none'"><span class="slot-label">IMAGE SLOT · assets/project-hospitality.jpg</span><span class="work-no">04</span></div><div class="work-info"><div><small>HOSPITALITY / BUSINESS</small><h3>The Shiv Durga Hotel</h3><p>Hospitality, food service & customer care</p></div><button class="project-detail" data-title="The Shiv Durga Hotel & Restaurants" data-description="Hands-on hospitality and restaurant experience, including customer service, food operations, management and communication." data-image="assets/project-hospitality.jpg" aria-label="View project details">↗</button></div></article>
+        <article class="work-card reveal" data-category="community"><div class="work-image slot-image"><img src="assets/project-creative.jpg" alt="Creative project image" onerror="this.style.display='none'"><span class="slot-label">IMAGE SLOT · assets/project-creative.jpg</span><span class="work-no">05</span></div><div class="work-info"><div><small>CREATIVE / PERSONAL</small><h3>Creative & Personal Projects</h3><p>Learning, experimentation & new ideas</p></div><button class="project-detail" data-title="Creative & Personal Projects" data-description="A place to feature experiments, creative work, learning projects, visual design, writing or other personal initiatives." data-image="assets/project-creative.jpg" aria-label="View project details">↗</button></div></article>
+        <article class="work-card reveal" data-category="business"><div class="work-image slot-image"><img src="assets/project-brand.jpg" alt="Brand and service project" onerror="this.style.display='none'"><span class="slot-label">IMAGE SLOT · assets/project-brand.jpg</span><span class="work-no">06</span></div><div class="work-info"><div><small>BRANDING / LOCAL BUSINESS</small><h3>Local Business & Brand Work</h3><p>Brand presentation and local service projects</p></div><button class="project-detail" data-title="Local Business & Brand Work" data-description="Add examples of business branding, printed collateral, digital identity, customer-facing projects and local service work." data-image="assets/project-brand.jpg" aria-label="View project details">↗</button></div></article>
+      </div></div></section>
+
+    <section class="section section-dark journal" id="journal"><div class="container-xl"><div class="section-head reveal"><div class="eyebrow"><span class="eyebrow-line"></span> IDEAS & REFLECTIONS</div><h2>Notes from the<br><em>learning journey.</em></h2></div>
+      <div class="journal-grid">
+        <article class="journal-card reveal"><div class="journal-image slot-image"><img src="assets/blog-motivation.jpg" alt="Motivation blog thumbnail" onerror="this.style.display='none'"><span class="slot-label">IMAGE SLOT · assets/blog-motivation.jpg</span><span class="journal-date">20 JUL 2023</span></div><div class="journal-text"><small>PERSONAL DEVELOPMENT</small><h3>Stay Self-Motivated</h3><p>Encouragement to stay committed, keep learning and move forward with purpose.</p><a href="#contact" class="text-link light-link">Read / discuss <span>↗</span></a></div></article>
+        <article class="journal-card reveal"><div class="journal-image slot-image"><img src="assets/blog-attitude.jpg" alt="Attitude blog thumbnail" onerror="this.style.display='none'"><span class="slot-label">IMAGE SLOT · assets/blog-attitude.jpg</span><span class="journal-date">09 JUN 2023</span></div><div class="journal-text"><small>REFLECTION</small><h3>No Love Attitude</h3><p>A personal writing highlight from the original portfolio archive.</p><a href="#contact" class="text-link light-link">Read / discuss <span>↗</span></a></div></article>
+        <article class="journal-card reveal"><div class="journal-image slot-image"><img src="assets/blog-macbeth.jpg" alt="Macbeth performance thumbnail" onerror="this.style.display='none'"><span class="slot-label">IMAGE SLOT · assets/blog-macbeth.jpg</span><span class="journal-date">2018</span></div><div class="journal-text"><small>ARTS / EDUCATION</small><h3>Macbeth with Classmates</h3><p>A school-stage memory connected to literature, performance and creative expression.</p><a href="#contact" class="text-link light-link">Read / discuss <span>↗</span></a></div></article>
+      </div></div></section>
+
+    <section class="section contact-section" id="contact"><div class="container-xl"><div class="contact-grid"><div class="contact-copy reveal"><div class="eyebrow"><span class="eyebrow-line"></span> GET IN TOUCH</div><h2>Let's make<br><em>something meaningful.</em></h2><p>Have a project, idea, collaboration or question? I would be glad to hear from you.</p><div class="contact-details"><a href="mailto:dassonai743425@gmail.com"><small>EMAIL</small><strong>dassonai743425@gmail.com</strong><span>↗</span></a><a href="tel:+917384440176"><small>PHONE</small><strong>+91 73844 40176</strong><span>↗</span></a><div><small>LOCATION</small><strong>Dhuturdaha, Minakhan, North 24 Parganas<br>West Bengal, India · 743425</strong></div><a href="https://www.facebook.com/" target="_blank" rel="noopener"><small>SOCIAL</small><strong>Facebook profile</strong><span>↗</span></a></div></div>
+      <div class="contact-form-wrap reveal"><form id="contactForm" class="contact-form" novalidate><h3>Send a message</h3><p>All fields are required.</p><div class="row g-3"><div class="col-md-6"><label for="name">Your name</label><input id="name" name="name" required minlength="2" autocomplete="name" placeholder="Full name"></div><div class="col-md-6"><label for="email">Email address</label><input id="email" name="email" required type="email" autocomplete="email" placeholder="name@example.com"></div><div class="col-12"><label for="subject">Subject</label><input id="subject" name="subject" required placeholder="What is this about?"></div><div class="col-12"><label for="message">Message</label><textarea id="message" name="message" rows="5" required minlength="10" placeholder="Tell me a little about your project..."></textarea></div><div class="col-12"><button class="btn btn-gold w-100" type="submit">Compose email <span>↗</span></button><div class="form-feedback" id="formFeedback" role="status" aria-live="polite">This form opens your email app after validation; it does not send data to a server.</div></div></div></form></div></div></div></section>
+  </main>
+  <footer class="footer"><div class="container-xl footer-top"><a class="brand footer-brand" href="#home"><span class="brand-mark">SD</span><span>SONAI DAS<small>Digital • Data • Community</small></span></a><p>Curiosity. Integrity. Practical impact.</p><a href="#home" class="back-top">BACK TO TOP ↑</a></div><div class="container-xl footer-bottom"><span>© <span id="year"></span> Sonai Das. All rights reserved.</span><span>Designed with intention.</span></div></footer>
+
+  <div class="modal fade" id="projectModal" tabindex="-1" aria-labelledby="projectModalTitle" aria-hidden="true"><div class="modal-dialog modal-lg modal-dialog-centered"><div class="modal-content project-modal"><button type="button" class="btn-close btn-close-white ms-auto" data-bs-dismiss="modal" aria-label="Close"></button><div class="modal-project-image slot-image"><img id="modalImage" alt="" src="" onerror="this.style.display='none'"><span class="slot-label" id="modalSlot">PROJECT IMAGE</span></div><div class="modal-body"><small class="eyebrow">PROJECT OVERVIEW</small><h2 id="projectModalTitle">Project</h2><p id="projectModalDescription"></p></div></div></div></div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.9/dist/js/bootstrap.bundle.min.js" integrity="sha384-WyOxWvTyr1QaMPfiPJSv76iReVthorl5uWlFtZPyK0IEB0hGzo9y5Bp9mYanr8Bu" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.15.0/dist/gsap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.15.0/dist/ScrollTrigger.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/three@0.180.0/build/three.min.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
